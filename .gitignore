@@ -26,7 +26,19 @@ dist/
 .DS_Store
 Thumbs.db
 
+# Testing and Type Checking
+.pytest_cache/
+.mypy_cache/
+.pyright/
+.coverage
+htmlcov/
+
+# Local Environment Overrides
+.env*.local
+
 # Project specific
+.adk/
+artifacts/
 final_report_adk.json
 briefing_adk.md
 evaluation_adk.md

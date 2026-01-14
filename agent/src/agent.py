@@ -166,12 +166,12 @@ class SEOAgent(AdkAgent):
             )
             yield {"type": "data", "key": "briefing", "data": report["briefing"]}
             
-            # Step 5: Evaluation
-            yield {"type": "status", "step": "evaluation", "message": "Evaluating Briefing..."}
-            report["evaluation"] = await asyncio.to_thread(
-                self._eval_client.evaluate, report["briefing"], report
-            )
-            yield {"type": "data", "key": "evaluation", "data": report["evaluation"]}
+            # Step 5: Evaluation: Skip for now
+            # yield {"type": "status", "step": "evaluation", "message": "Evaluating Briefing..."}
+            # report["evaluation"] = await asyncio.to_thread(
+            #     self._eval_client.evaluate, report["briefing"], report
+            # )
+            # yield {"type": "data", "key": "evaluation", "data": report["evaluation"]}
 
         yield {"type": "complete", "report": report}
 

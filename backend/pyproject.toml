@@ -9,4 +9,11 @@ dependencies = [
     "pydantic-settings>=2.12.0",
     "sse-starlette>=3.1.2",
     "uvicorn>=0.40.0",
+    "google-adk>=0.0.1",
+    "google-genai>=0.3.0",
+    "google-ads>=28.4.1",
+    "python-dotenv>=1.2.1",
+    "requests>=2.32.5",
+    "openinference-instrumentation>=0.1.42",
+    "google-auth-oauthlib>=1.2.3",
 ]

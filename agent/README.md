@@ -64,3 +64,18 @@ async def main():
 if __name__ == "__main__":
     asyncio.run(main())
 ```
+
+### Running with ADK Web UI
+You can run the agent independently using the built-in ADK Web UI:
+
+1.  **Ensure the `src` directory is recognized**:
+    (This has been initialized with `touch agent/src/__init__.py` and `root_agent` exposure in `agent.py`)
+
+2.  **Launch the Web UI**:
+    From the `agent/` directory:
+    ```bash
+    PYTHONPATH=. uv run adk web . --port 8001
+    ```
+
+3.  **Access the UI**:
+    Open [http://localhost:8001](http://localhost:8001) in your browser. Select the **src** agent to start interacting.

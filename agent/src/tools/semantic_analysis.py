@@ -20,7 +20,7 @@ class SemanticAnalysisClient:
             raise ValueError("GOOGLE_API_KEY environment variable not set")
         
         self.client = genai.Client(api_key=self.api_key)
-        self.model = "gemini-2.0-flash-exp" # Or gemini-1.5-pro, depending on availability/preference
+        self.model = "gemini-3-pro-preview"
 
     def analyze(self, competitor_contents: List[Dict[str, Any]], keyword: str, language: str = "German") -> Dict[str, Any]:
         """

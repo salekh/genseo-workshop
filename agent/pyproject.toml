@@ -11,4 +11,5 @@ dependencies = [
     "requests>=2.32.5",
     "google-genai>=0.3.0",
     "google-adk>=0.0.1",
+    "openinference-instrumentation>=0.1.42",
 ]
