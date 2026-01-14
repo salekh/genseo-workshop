@@ -1,0 +1,216 @@
+{
+  "topic": "Familienhotel Mallorca",
+  "keyword_data": {
+    "main_keyword": {
+      "keyword": "familienhotel mallorca",
+      "avg_searches": 8100,
+      "competition": "HIGH"
+    },
+    "related_keywords": [
+      {
+        "keyword": "mallorca familienhotel",
+        "avg_searches": 8100,
+        "competition": "HIGH"
+      },
+      {
+        "keyword": "familien hotel mallorca",
+        "avg_searches": 8100,
+        "competition": "HIGH"
+      },
+      {
+        "keyword": "familienhotels auf mallorca",
+        "avg_searches": 8100,
+        "competition": "HIGH"
+      },
+      {
+        "keyword": "kinderhotel mallorca",
+        "avg_searches": 2900,
+        "competition": "HIGH"
+      },
+      {
+        "keyword": "mallorca urlaub mit kindern",
+        "avg_searches": 2900,
+        "competition": "HIGH"
+      },
+      {
+        "keyword": "urlaub mallorca mit kindern",
+        "avg_searches": 2900,
+        "competition": "HIGH"
+      },
+      {
+        "keyword": "urlaub mit kindern mallorca",
+        "avg_searches": 2900,
+        "competition": "HIGH"
+      },
+      {
+        "keyword": "urlaub mit kindern auf mallorca",
+        "avg_searches": 2900,
+        "competition": "HIGH"
+      },
+      {
+        "keyword": "mallorca mit kindern hotel",
+        "avg_searches": 1900,
+        "competition": "HIGH"
+      },
+      {
+        "keyword": "mallorca hotel mit kindern",
+        "avg_searches": 1900,
+        "competition": "HIGH"
+      }
+    ],
+    "proof_keywords": [
+      "kinderhotel",
+      "cala",
+      "kindern",
+      "urlaub",
+      "sterne",
+      "alcudia",
+      "familienhotels",
+      "inclusive"
+    ]
+  },
+  "competitors": [
+    {
+      "title": "Beste Familienhotels Mallorca",
+      "link": "https://www.dertour.de/reisemagazin/beste-familienhotels-mallorca",
+      "word_count": 1037
+    },
+    {
+      "title": "Familienhotel auf Mallorca • Die besten Mallorca Hotels bei ...",
+      "link": "https://www.holidaycheck.de/dh/hotels-mallorca/07f5f656-4acc-3230-b7dd-aec3c13af37c?facilitysummary=familyhotel",
+      "word_count": 2474
+    },
+    {
+      "title": "7 fantastische Kinderhotels auf Mallorca direkt am Strand",
+      "link": "https://www.familienreisefieber.de/kinderhotels-mallorca-strand/",
+      "word_count": 2527
+    },
+    {
+      "title": "Luxushotel für Familien auf Mallorca",
+      "link": "https://thedonnaportals.com/de/familien-luxushotel-mallorca/",
+      "word_count": 1878
+    },
+    {
+      "title": "Hotels für Familien mit Kindern auf Mallorca und Menorca",
+      "link": "https://www.zafirohotels.com/de/erlebnisse/familien/",
+      "word_count": 6007
+    }
+  ],
+  "semantic_analysis": {
+    "keyword": "Familienhotel Mallorca",
+    "entities": {
+      "places": [
+        "Mallorca",
+        "Cala d’Or",
+        "Cala Mesquida",
+        "Cala Mandia",
+        "Cala Estany d’en Mas",
+        "Sa Coma",
+        "Cala Ratjada",
+        "Cala Millor",
+        "Playa de Muro",
+        "Menorca",
+        "Portals"
+      ],
+      "hotels": [
+        "Calimera Fido Gardens",
+        "VIVA Cala Mesquida Resort & Spa",
+        "Blau Punta Reina Resort",
+        "Hipotels Mediterraneo Club",
+        "Hipotels Dunas Cala Millor",
+        "Eix Platja Daurada Hotel & Spa",
+        "Iberostar Selection Albufera Park",
+        "TUI KIDS CLUB Playa Garden",
+        "Universal Hotel Romantica",
+        "Inturotel Esmeralda Park",
+        "The Donna Portals",
+        "Zafiro Hotels",
+        "Zafiro Palace Andratx"
+      ],
+      "concepts": [
+        "Familienurlaub",
+        "All-Inclusive",
+        "Kinderclub",
+        "Animation",
+        "Poollandschaft",
+        "Strandnähe",
+        "Familienzimmer",
+        "Kinderpool",
+        "Spa",
+        "Miniclub",
+        "Maxiclub",
+        "Teensclub",
+        "Adults Only Bereiche",
+        "Gastronomisches Angebot",
+        "Wassersport",
+        "Spielplätze",
+        "Gartenanlagen",
+        "Piratenpool",
+        "Kinderfreundliche Menüs",
+        "Abwechslungsreiches Abendprogramm",
+        "Luxushotel"
+      ]
+    },
+    "topic_clusters": [
+      {
+        "topic": "Lage am Strand",
+        "coverage": "3/5 articles",
+        "status": "High"
+      },
+      {
+        "topic": "All-Inclusive Angebote",
+        "coverage": "3/5 articles",
+        "status": "High"
+      },
+      {
+        "topic": "Kinderbetreuung und Animation",
+        "coverage": "4/5 articles",
+        "status": "High"
+      },
+      {
+        "topic": "Pools und Wasserparks",
+        "coverage": "4/5 articles",
+        "status": "High"
+      },
+      {
+        "topic": "Familienzimmer und Suiten",
+        "coverage": "3/5 articles",
+        "status": "High"
+      },
+      {
+        "topic": "Gastronomisches Angebot für Kinder",
+        "coverage": "2/5 articles",
+        "status": "Medium"
+      },
+      {
+        "topic": "Spa und Wellness für Eltern",
+        "coverage": "2/5 articles",
+        "status": "Medium"
+      },
+      {
+        "topic": "Adults Only Bereiche",
+        "coverage": "2/5 articles",
+        "status": "Medium"
+      },
+      {
+        "topic": "Luxus Familienhotels",
+        "coverage": "1/5 articles",
+        "status": "Low"
+      },
+      {
+        "topic": "Ausflugsziele in der Umgebung",
+        "coverage": "1/5 articles",
+        "status": "Low"
+      }
+    ],
+    "content_gaps": [
+      "Detailliertere Informationen zu altersgerechten Aktivitäten (z.B. Babybetreuung, spezielle Programme für Teenager).",
+      "Vergleich verschiedener Familienhotel-Kategorien (z.B. Budget vs. Luxus).",
+      "Konkrete Beispiele für kinderfreundliche Menüs und gastronomische Angebote.",
+      "Informationen zu barrierefreien Familienhotels für Familien mit behinderten Kindern.",
+      "Detailliertere Beschreibung von Ausflugszielen speziell für Familien mit Kindern unterschiedlichen Alters.",
+      "Nachhaltigkeit und Umweltfreundlichkeit der Familienhotels."
+    ]
+  },
+  "briefing": "CONTENT-BRIEFING: Familienhotel Mallorca\n\n### 1. FORMALE INFORMATIONEN\n*   **Haupt-Keyword:** familienhotel mallorca (8.100 Suchanfragen/Monat)\n*   **Neben-Keywords:** kinderhotel mallorca, mallorca urlaub mit kindern, familienhotels auf mallorca, urlaub mit kindern auf mallorca, mallorca hotel mit kindern, mallorca familienhotel\n*   **Proof-Keywords:** All-Inclusive, Kinderbetreuung, Animation, Poollandschaft, Strandnähe, Familienzimmer, Miniclub, Alcudia, Cala Millor, Playa de Muro, Wasserrutschen, Babybetreuung\n*   **Suchintention:** **Commercial Investigation (Vergleichend & Transaktional).** Der Nutzer weiß, dass er nach Mallorca möchte und sucht konkret nach passenden Unterkünften für die Familie. Er vergleicht Angebote, Lagen und Ausstattungen.\n*   **Customer Journey:** **Consideration Phase.** Der Nutzer wägt Optionen ab (Region, Preisklasse, Ausstattung) kurz vor der Buchungsentscheidung.\n*   **Textlänge:** **ca. 2.000 - 2.500 Wörter**\n    *   *Hinweis:* Die Top-Wettbewerber (z.B. Zafiro, HolidayCheck) haben sehr umfangreiche Inhalte (2.500 - 6.000 Wörter). Um konkurrenzfähig zu sein, müssen wir die Lücken (Content Gaps) detailliert füllen und mehr bieten als eine reine Auflistung.\n\n---\n\n### 2. GLIEDERUNGSVORSCHLAG\n\n**H1: Familienhotel Mallorca: Die besten Unterkünfte für einen unvergesslichen Urlaub mit Kindern**\n\n**H2: Warum Mallorca das perfekte Ziel für den Familienurlaub ist**\n*   Kurze Einleitung: Schnelle Flugerreichbarkeit, familienfreundliche Infrastruktur, mediterranes Klima.\n*   Wichtig: Integration der Keywords \"urlaub mallorca mit kindern\" und \"mallorca urlaub mit kindern\".\n\n**H2: Die beliebtesten Regionen für Familienhotels auf Mallorca**\n*   Vorstellung der kindgerechten Orte mit flach abfallenden Stränden.\n*   **Entities einbinden:** Alcudia, Playa de Muro, Cala Millor, Cala Ratjada, Sa Coma.\n*   Erklärung, warum diese Orte ideal sind (z.B. Strandnähe, Promenaden).\n\n**H2: Worauf Sie bei der Wahl eines Kinderhotels achten sollten**\n*   **H3: Ausstattung & Poollandschaften:** Piratenpools, Rutschen, separate Kinderpools.\n*   **H3: Kinderbetreuung & Animation:** Unterscheidung Miniclub vs. Maxiclub.\n*   **H3: Verpflegung:** Vorteile von All-Inclusive für Familien.\n\n**H2: Das passende Hotel für jedes Alter (Content Gap: Altersgerechte Aktivitäten)**\n*   *Hier differenzieren wir uns vom Wettbewerb durch Detailtiefe.*\n*   **H3: Urlaub mit Babys und Kleinkindern:** Hotels mit Babybetreuung, Babyphon-Service, Buggy-Verleih und flachen Planschbecken.\n*   **H3: Action für Kinder (4-12 Jahre):** Fokus auf Miniclubs, Schatzsuchen, Maskottchen und Spielplätze.\n*   **H3: Angebote für Teenager:** Wichtiges Segment! Chill-out Zones, WLAN, Sportturniere, Teensclub, Wassersport (Cala d'Or, Cala Mandia).\n\n**H2: Budget vs. Luxus: Welches Familienhotel passt zu Ihnen? (Content Gap: Vergleich)**\n*   **H3: Preiswerte Familienhotels:** Gute 3-4 Sterne Optionen (z.B. Universal Hotel Romantica), Fokus auf Preis-Leistung.\n*   **H3: Luxusurlaub mit der Familie:** 5-Sterne Häuser (z.B. Zafiro Palace Andratx, The Donna Portals). Erwähnung von \"Swim-up Suiten\" und Wellness für Eltern.\n*   **H3: Nachhaltige Familienhotels:** (Content Gap) Kurz auf umweltfreundliche Optionen eingehen (Eco-Zertifikate, lokale Küche).\n\n**H2: Unsere Top-Empfehlungen: Die besten Familienhotels auf Mallorca**\n*   Kurze Vorstellung konkreter Hotels basierend auf den Entities.\n*   *Beispiele:* Iberostar Selection Albufera Park (Top Lage), VIVA Cala Mesquida Resort & Spa, Hipotels Mediterraneo Club.\n*   Fokus auf USP jedes Hotels (z.B. \"Direkt am Strand\", \"Riesiger Wasserpark\").\n\n**H2: Gastronomie & Service: Mehr als nur Pommes (Content Gap: Kulinarik & Barrierefreiheit)**\n*   Eingehen auf gesunde Kinderbuffets, Allergiker-Menüs und flexible Essenszeiten.\n*   Kurzer Absatz zu Barrierefreiheit (Stroller-Access, Rampen) in den Hotelanlagen.\n\n**H2: Ausflugsziele rund um Ihr Hotel (Content Gap: Ausflüge)**\n*   Nicht nur das Hotel zählt. Tipps für: Drachenhöhlen (Porto Cristo), Palma Aquarium, Wasserparks.\n\n**H2: Praktische Tipps: Anreise & beste Reisezeit**\n*   Wann ist es warm genug zum Baden? (Mai bis Oktober).\n*   Tipps zum Mietwagen vs. Hoteltransfer.\n\n**H2: Fazit: Traumurlaub im Familienhotel auf Mallorca buchen**\n*   Zusammenfassung und Call-to-Action.\n\n---\n\n### 3. SEO-HINWEISE\n\n*   **Tonalität:** Inspirierend, vertrauenswürdig und informativ. Vermeiden Sie reine Werbesprache; bieten Sie echten Mehrwert und Beratung.\n*   **Interne Verlinkung:** Verlinken Sie auf Landingpages zu spezifischen Regionen (z.B. \"Urlaub in Alcudia\") oder spezifischen Hotel-Detailseiten, falls vorhanden.\n*   **Snippet-Optimierung:**\n\n**Meta-Title:**\nTop Familienhotel Mallorca: Beste Kinderhotels & Urlaubstipps\n\n**Meta-Description:**\nPlanen Sie Ihren Urlaub im Familienhotel Mallorca ☀️ Die besten Regionen, Hotels mit All-Inclusive & Tipps für Kinder jeden Alters. Jetzt Angebote vergleichen!"
+}
