@@ -10,7 +10,7 @@ class ContentParser(Agent):
     def __init__(self):
         super().__init__(
             name="ContentParser",
-            model="gemini-3-pro-preview",
+            model="gemini-2.5-pro",
             description="Parses content from URLs using Jina Reader.",
             instruction="You are a content extraction specialist. Extract readable content from the provided URLs.",
             tools=[parsing_tool],

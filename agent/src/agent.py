@@ -7,14 +7,14 @@ from dotenv import load_dotenv
 
 from google.adk import Agent as AdkAgent
 
-from src.tools.google_ads import GoogleAdsClient
-from src.tools.serp_api import SerpApiClient
-from src.tools.custom_search import CustomSearchClient
-from src.tools.jina_reader import JinaReaderClient
-from src.tools.semantic_analysis import SemanticAnalysisClient
-from src.tools.content_briefing import ContentBriefingClient
-from src.tools.evaluation import EvaluationClient
-from src.config import settings
+from .tools.google_ads import GoogleAdsClient
+from .tools.serp_api import SerpApiClient
+from .tools.custom_search import CustomSearchClient
+from .tools.jina_reader import JinaReaderClient
+from .tools.semantic_analysis import SemanticAnalysisClient
+from .tools.content_briefing import ContentBriefingClient
+from .tools.evaluation import EvaluationClient
+from .config import settings
 
 # Load .env
 env_path = Path(__file__).resolve().parents[2] / '.env'
@@ -195,3 +195,6 @@ if __name__ == "__main__":
             f.write(result["evaluation"])
             
     print("\nSaved: final_report_adk.json, briefing_adk.md, evaluation_adk.md")
+
+# Expose root_agent for ADK deployment if it picks this file
+from .seo_agent.agent import root_agent

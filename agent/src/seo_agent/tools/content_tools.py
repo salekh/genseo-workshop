@@ -1,6 +1,6 @@
 from typing import Dict, Any, List
 from google.adk.tools import FunctionTool
-from tools.jina_reader import JinaReaderClient
+from ...tools.jina_reader import JinaReaderClient
 
 def parse_content(url: str) -> Dict[str, Any]:
     """

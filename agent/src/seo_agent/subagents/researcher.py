@@ -2,7 +2,7 @@ import asyncio
 from typing import Dict, Any, List
 from google.adk import Agent
 from ..tools.research_tools import keyword_tool, serp_tool, custom_search_tool
-from config import settings
+from ...config import settings
 
 class Researcher(Agent):
     """
@@ -11,7 +11,7 @@ class Researcher(Agent):
     def __init__(self):
         super().__init__(
             name="Researcher",
-            model="gemini-3-pro-preview",
+            model="gemini-2.5-pro",
             description="Researches keywords and finds competitors using Google Ads, SerpAPI, and Custom Search.",
             instruction="You are a research specialist. Find relevant keywords and competitors for the given topic.",
             tools=[keyword_tool, serp_tool, custom_search_tool],

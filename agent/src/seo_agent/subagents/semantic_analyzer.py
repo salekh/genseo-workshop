@@ -2,7 +2,7 @@ import asyncio
 from typing import Dict, Any, List
 from google.adk import Agent
 from ..tools.analysis_tools import semantic_tool
-from config import settings
+from ...config import settings
 
 class SemanticAnalyzer(Agent):
     """
@@ -11,7 +11,7 @@ class SemanticAnalyzer(Agent):
     def __init__(self):
         super().__init__(
             name="SemanticAnalyzer",
-            model="gemini-3-pro-preview",
+            model="gemini-2.5-pro",
             description="Analyzes content semantically to identify entities, gaps, and opportunities.",
             instruction="You are a semantic analysis expert. Analyze the provided content to find SEO opportunities.",
             tools=[semantic_tool],

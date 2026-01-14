@@ -5,7 +5,7 @@ from pathlib import Path
 from dotenv import load_dotenv
 from google.adk.agents import SequentialAgent
 from google.genai import types
-from config import settings
+from ..config import settings
 from .subagents.briefing_evaluator import BriefingEvaluator
 from .subagents.briefing_generator import BriefingGenerator
 from .subagents.content_parser import ContentParser

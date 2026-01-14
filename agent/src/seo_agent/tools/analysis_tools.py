@@ -1,10 +1,10 @@
 from typing import Dict, Any, List
 from google.adk.tools import FunctionTool
-from tools.semantic_analysis import SemanticAnalysisClient
-from tools.content_briefing import ContentBriefingClient
-from tools.evaluation import EvaluationClient
-from config import settings
-from seo_agent.models import ReportData
+from ...tools.semantic_analysis import SemanticAnalysisClient
+from ...tools.content_briefing import ContentBriefingClient
+from ...tools.evaluation import EvaluationClient
+from ...config import settings
+from ..models import ReportData
 
 def analyze_semantics(analyzed_content: List[Dict[str, Any]], context: str, language: str = settings.DEFAULT_LANGUAGE) -> Dict[str, Any]:
     """

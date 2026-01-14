@@ -11,7 +11,7 @@ class BriefingEvaluator(Agent):
     def __init__(self):
         super().__init__(
             name="BriefingEvaluator",
-            model="gemini-3-pro-preview",
+            model="gemini-2.5-pro",
             description="Evaluates the content briefing against best practices and requirements.",
             instruction="You are a senior editor. Evaluate the content brief for quality and completeness.",
             tools=[evaluation_tool]

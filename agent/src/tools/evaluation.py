@@ -15,11 +15,16 @@ class EvaluationClient:
     """
     def __init__(self):
         self.api_key = os.getenv("GOOGLE_API_KEY")
-        if not self.api_key:
-            raise ValueError("GOOGLE_API_KEY environment variable not set")
-        
-        self.client = genai.Client(api_key=self.api_key)
-        self.model = "gemini-3-pro-preview"
+        self.project_id = os.getenv("PROJECT_ID")
+        self.location = os.getenv("LOCATION")
+
+        if self.api_key:
+            self.client = genai.Client(api_key=self.api_key)
+        elif self.project_id and self.location:
+            self.client = genai.Client(vertexai=True, project=self.project_id, location=self.location)
+        else:
+            raise ValueError("Either GOOGLE_API_KEY or PROJECT_ID/LOCATION must be set")
+        self.model = "gemini-2.5-pro"
 
     def evaluate(self, briefing: str, report_data: Dict[str, Any]) -> str:
         """
