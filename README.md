@@ -17,6 +17,8 @@ The application consists of three main components:
 - **Backend (`/backend`)**: A FastAPI server that exposes the agent via a streaming API.
 - **Frontend (`/frontend`)**: A Next.js web interface for real-time interaction.
 
+![GenSEO App Screenshot](assets/app-screenshot.png)
+
 ## 📋 Prerequisites
 
 Before you start, ensure you have the following installed:
