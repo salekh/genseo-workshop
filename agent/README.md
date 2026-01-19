@@ -31,10 +31,23 @@ Ensure these are set in your root `.env` file:
 
 ## 🛠️ Development
 
+### Setup
+First, clone the repository:
+```bash
+git clone https://github.com/sanchitalekh/genseo-workshop.git
+cd genseo-workshop/agent
+```
+
 ### Dependencies
 We use `uv` for dependency management.
+
+First, install `uv` if you haven't already:
 ```bash
-cd agent
+pip install uv
+```
+
+Then, install the project dependencies:
+```bash
 uv sync
 ```
 
@@ -49,20 +62,10 @@ uv sync
     -   `evaluation.py`: Gemini-based critique.
 
 ### Running Standalone
-You can run the agent logic directly for testing purposes (requires a small script instantiation):
+You can run the agent logic directly for testing purposes. This runs the application in a local server, including the backend as well as the frontend.
 
-```python
-# Example script to run agent
-import asyncio
-from src.agent import SEOAgent
-
-async def main():
-    agent = SEOAgent()
-    async for event in agent.execute_mission("AI in Healthcare"):
-        print(event)
-
-if __name__ == "__main__":
-    asyncio.run(main())
+```bash
+./start_app.sh
 ```
 
 ### Running with ADK Web UI
@@ -71,7 +74,7 @@ You can run the agent independently using the built-in ADK Web UI:
 1.  **Ensure the `src` directory is recognized**:
     (This has been initialized with `touch agent/src/__init__.py` and `root_agent` exposure in `agent.py`)
 
-2.  **Launch the Web UI**:
+2.  **Launch the ADKWeb UI**:
     From the `agent/` directory:
     ```bash
     PYTHONPATH=. uv run adk web . --port 8001

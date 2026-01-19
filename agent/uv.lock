@@ -15,6 +15,7 @@ dependencies = [
     { name = "google-ads" },
     { name = "google-auth-oauthlib" },
     { name = "google-genai" },
+    { name = "mcp" },
     { name = "openinference-instrumentation" },
     { name = "python-dotenv" },
     { name = "requests" },
@@ -26,6 +27,7 @@ requires-dist = [
     { name = "google-ads", specifier = ">=28.4.1" },
     { name = "google-auth-oauthlib", specifier = ">=1.2.3" },
     { name = "google-genai", specifier = ">=0.3.0" },
+    { name = "mcp", specifier = ">=1.0.0" },
     { name = "openinference-instrumentation", specifier = ">=0.1.42" },
     { name = "python-dotenv", specifier = ">=1.2.1" },
     { name = "requests", specifier = ">=2.32.5" },
@@ -531,6 +533,7 @@ dependencies = [
     { name = "proto-plus" },
     { name = "protobuf" },
 ]
+sdist = { url = "https://us-python.pkg.dev/artifact-foundry-prod/ah-3p-staging-python/google-cloud-appengine-logging/google_cloud_appengine_logging-1.8.0.tar.gz", hash = "sha256:84b705a69e4109fc2f68dfe36ce3df6a34d5c3d989eee6d0ac1b024dda0ba6f5" }
 wheels = [
     { url = "https://us-python.pkg.dev/artifact-foundry-prod/ah-3p-staging-python/google-cloud-appengine-logging/google_cloud_appengine_logging-1.8.0-py3-none-any.whl", hash = "sha256:a4ce9ce94a9fd8c89ed07fa0b06fcf9ea3642f9532a1be1a8c7b5f82c0a70ec6" },
 ]
