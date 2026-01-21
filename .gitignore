@@ -43,3 +43,4 @@ final_report_adk.json
 briefing_adk.md
 evaluation_adk.md
 *.log
+uv.lock
